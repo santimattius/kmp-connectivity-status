@@ -1,4 +1,4 @@
-# KMP Compose Gradle Skeleton
+# KMP Connectivity Status
 
 This is a Kotlin Multiplatform project targeting Android, iOS.
 
