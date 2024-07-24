@@ -2,44 +2,38 @@ package com.santimattius.kmp.skeleton.features.home
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.santimattius.kmp.skeleton.core.data.PictureRepository
-import com.santimattius.kmp.skeleton.core.domain.Picture
-import kotlinx.coroutines.CoroutineExceptionHandler
+import com.santimattius.kmp.network.checker.ConnectivityStatus
 import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.flow.update
-import kotlinx.coroutines.launch
+import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.flow.stateIn
 
 
 data class HomeUiState(
-    val isLoading: Boolean = false,
-    val hasError: Boolean = false,
-    val data: Picture? = null,
+    val isConnected: Boolean = false,
 )
 
 class HomeViewModel(
-    private val repository: PictureRepository,
+    private val connectivityStatus: ConnectivityStatus
 ) : ViewModel() {
 
     private val _state = MutableStateFlow(HomeUiState())
-    val state: StateFlow<HomeUiState> = _state
-
-    private val exceptionHandler = CoroutineExceptionHandler { _, _ ->
-        _state.update { it.copy(isLoading = false, hasError = true) }
-    }
+    val state: StateFlow<HomeUiState> = connectivityStatus.isNetworkConnected
+        .map { isConnected ->
+            HomeUiState(isConnected)
+        }.stateIn(
+            scope = viewModelScope,
+            started = SharingStarted.WhileSubscribed(5000),
+            initialValue = _state.value
+        )
 
     init {
-        randomImage()
+        connectivityStatus.start()
     }
 
-    fun randomImage() {
-        _state.update { it.copy(isLoading = true, hasError = false) }
-        viewModelScope.launch(exceptionHandler) {
-            repository.random().onSuccess { picture ->
-                _state.update { it.copy(isLoading = false, data = picture) }
-            }.onFailure {
-                _state.update { it.copy(isLoading = false, hasError = true) }
-            }
-        }
+    override fun onCleared() {
+        connectivityStatus.stop()
+        super.onCleared()
     }
 }

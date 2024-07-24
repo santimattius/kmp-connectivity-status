@@ -38,12 +38,12 @@ kotlin {
             api(libs.androidx.appcompat)
             api(libs.androidx.core.ktx)
 
-
-
             implementation(libs.ktor.client.okhttp)
             implementation(libs.kotlinx.coroutines.android)
 
             implementation(libs.koin.android)
+
+            implementation(libs.androidx.startup.runtime)
         }
         commonMain.dependencies {
             implementation(compose.runtime)
@@ -69,6 +69,7 @@ kotlin {
             api(libs.koin.core)
             api(libs.koin.compose)
             api(libs.koin.composeViewModel)
+            implementation(projects.networkChecker)
         }
         iosMain.dependencies {
             implementation(libs.ktor.client.darwin)
