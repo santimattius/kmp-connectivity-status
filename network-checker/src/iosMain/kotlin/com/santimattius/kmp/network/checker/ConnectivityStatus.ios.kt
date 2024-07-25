@@ -25,7 +25,7 @@ actual class ConnectivityStatus {
         nw_path_monitor_set_update_handler(monitor) { path ->
             val pathStatus = nw_path_get_status(path)
             Logger.i { "Status: $pathStatus" }
-            _isNetworkAvailable.update { pathStatus == nw_path_status_satisfied }
+            isNetworkConnected.value = pathStatus == nw_path_status_satisfied
         }
         nw_path_monitor_set_queue(monitor, dispatch_get_main_queue())
 

@@ -10,6 +10,27 @@
 		058557BB273AAA24004C7B11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058557BA273AAA24004C7B11 /* Assets.xcassets */; };
 		058557D9273AAEEB004C7B11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058557D8273AAEEB004C7B11 /* Preview Assets.xcassets */; };
 		2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2152FB032600AC8F00CF470E /* iOSApp.swift */; };
+		4B894A772C53103F00F85412 /* ConnectivityStatus.kt in Resources */ = {isa = PBXBuildFile; fileRef = 4B894A672C53103F00F85412 /* ConnectivityStatus.kt */; };
+		4B894A782C53103F00F85412 /* ConnectivityStatus.ios.kt in Resources */ = {isa = PBXBuildFile; fileRef = 4B894A6F2C53103F00F85412 /* ConnectivityStatus.ios.kt */; };
+		4B894AA42C53105E00F85412 /* compose-multiplatform.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4B894A792C53105D00F85412 /* compose-multiplatform.xml */; };
+		4B894AA52C53105E00F85412 /* ic-connection-off.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B894A7A2C53105D00F85412 /* ic-connection-off.png */; };
+		4B894AA62C53105E00F85412 /* ic-connection-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B894A7B2C53105D00F85412 /* ic-connection-on.png */; };
+		4B894AA72C53105E00F85412 /* AppBar.kt in Resources */ = {isa = PBXBuildFile; fileRef = 4B894A7E2C53105D00F85412 /* AppBar.kt */; };
+		4B894AA82C53105E00F85412 /* Center.kt in Resources */ = {isa = PBXBuildFile; fileRef = 4B894A7F2C53105D00F85412 /* Center.kt */; };
+		4B894AA92C53105E00F85412 /* NetworkImage.kt in Resources */ = {isa = PBXBuildFile; fileRef = 4B894A802C53105D00F85412 /* NetworkImage.kt */; };
+		4B894AAA2C53105E00F85412 /* Color.kt in Resources */ = {isa = PBXBuildFile; fileRef = 4B894A822C53105D00F85412 /* Color.kt */; };
+		4B894AAB2C53105E00F85412 /* Theme.kt in Resources */ = {isa = PBXBuildFile; fileRef = 4B894A832C53105D00F85412 /* Theme.kt */; };
+		4B894AAC2C53105E00F85412 /* Type.kt in Resources */ = {isa = PBXBuildFile; fileRef = 4B894A842C53105D00F85412 /* Type.kt */; };
+		4B894AAD2C53105E00F85412 /* Dependencies.kt in Resources */ = {isa = PBXBuildFile; fileRef = 4B894A882C53105D00F85412 /* Dependencies.kt */; };
+		4B894AAE2C53105E00F85412 /* HomeScreen.kt in Resources */ = {isa = PBXBuildFile; fileRef = 4B894A8A2C53105D00F85412 /* HomeScreen.kt */; };
+		4B894AAF2C53105E00F85412 /* HomeViewModel.kt in Resources */ = {isa = PBXBuildFile; fileRef = 4B894A8B2C53105D00F85412 /* HomeViewModel.kt */; };
+		4B894AB02C53105E00F85412 /* SplashScreen.kt in Resources */ = {isa = PBXBuildFile; fileRef = 4B894A8D2C53105D00F85412 /* SplashScreen.kt */; };
+		4B894AB12C53105E00F85412 /* Navigation.kt in Resources */ = {isa = PBXBuildFile; fileRef = 4B894A902C53105D00F85412 /* Navigation.kt */; };
+		4B894AB22C53105E00F85412 /* Routes.kt in Resources */ = {isa = PBXBuildFile; fileRef = 4B894A912C53105D00F85412 /* Routes.kt */; };
+		4B894AB32C53105E00F85412 /* MainApplication.kt in Resources */ = {isa = PBXBuildFile; fileRef = 4B894A932C53105D00F85412 /* MainApplication.kt */; };
+		4B894AB42C53105E00F85412 /* App.kt in Resources */ = {isa = PBXBuildFile; fileRef = 4B894A982C53105D00F85412 /* App.kt */; };
+		4B894AB52C53105E00F85412 /* Dependencies.ios.kt in Resources */ = {isa = PBXBuildFile; fileRef = 4B894A9B2C53105E00F85412 /* Dependencies.ios.kt */; };
+		4B894AB62C53105E00F85412 /* MainViewController.kt in Resources */ = {isa = PBXBuildFile; fileRef = 4B894AA12C53105E00F85412 /* MainViewController.kt */; };
 		7555FF83242A565900829871 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555FF82242A565900829871 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
@@ -17,7 +38,28 @@
 		058557BA273AAA24004C7B11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		058557D8273AAEEB004C7B11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2152FB032600AC8F00CF470E /* iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSApp.swift; sourceTree = "<group>"; };
-		7555FF7B242A565900829871 /* .app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = .app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B894A672C53103F00F85412 /* ConnectivityStatus.kt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ConnectivityStatus.kt; sourceTree = "<group>"; };
+		4B894A6F2C53103F00F85412 /* ConnectivityStatus.ios.kt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ConnectivityStatus.ios.kt; sourceTree = "<group>"; };
+		4B894A792C53105D00F85412 /* compose-multiplatform.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "compose-multiplatform.xml"; sourceTree = "<group>"; };
+		4B894A7A2C53105D00F85412 /* ic-connection-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic-connection-off.png"; sourceTree = "<group>"; };
+		4B894A7B2C53105D00F85412 /* ic-connection-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic-connection-on.png"; sourceTree = "<group>"; };
+		4B894A7E2C53105D00F85412 /* AppBar.kt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AppBar.kt; sourceTree = "<group>"; };
+		4B894A7F2C53105D00F85412 /* Center.kt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Center.kt; sourceTree = "<group>"; };
+		4B894A802C53105D00F85412 /* NetworkImage.kt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NetworkImage.kt; sourceTree = "<group>"; };
+		4B894A822C53105D00F85412 /* Color.kt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Color.kt; sourceTree = "<group>"; };
+		4B894A832C53105D00F85412 /* Theme.kt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Theme.kt; sourceTree = "<group>"; };
+		4B894A842C53105D00F85412 /* Type.kt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Type.kt; sourceTree = "<group>"; };
+		4B894A882C53105D00F85412 /* Dependencies.kt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dependencies.kt; sourceTree = "<group>"; };
+		4B894A8A2C53105D00F85412 /* HomeScreen.kt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HomeScreen.kt; sourceTree = "<group>"; };
+		4B894A8B2C53105D00F85412 /* HomeViewModel.kt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HomeViewModel.kt; sourceTree = "<group>"; };
+		4B894A8D2C53105D00F85412 /* SplashScreen.kt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SplashScreen.kt; sourceTree = "<group>"; };
+		4B894A902C53105D00F85412 /* Navigation.kt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Navigation.kt; sourceTree = "<group>"; };
+		4B894A912C53105D00F85412 /* Routes.kt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Routes.kt; sourceTree = "<group>"; };
+		4B894A932C53105D00F85412 /* MainApplication.kt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MainApplication.kt; sourceTree = "<group>"; };
+		4B894A982C53105D00F85412 /* App.kt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = App.kt; sourceTree = "<group>"; };
+		4B894A9B2C53105E00F85412 /* Dependencies.ios.kt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dependencies.ios.kt; sourceTree = "<group>"; };
+		4B894AA12C53105E00F85412 /* MainViewController.kt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MainViewController.kt; sourceTree = "<group>"; };
+		7555FF7B242A565900829871 /* .app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = .app; path = "kmp-compose-gradle-skeleton.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7555FF82242A565900829871 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7555FF8C242A565B00829871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB3632DC29227652001CCB65 /* Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
@@ -39,9 +81,346 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4B894A662C530FED00F85412 /* KotlinDebug */ = {
+			isa = PBXGroup;
+			children = (
+				4B894A9A2C53105D00F85412 /* commonMain */,
+				4B894AA32C53105E00F85412 /* iosMain */,
+				4B894A6E2C53103F00F85412 /* commonMain */,
+				4B894A762C53103F00F85412 /* iosMain */,
+			);
+			path = KotlinDebug;
+			sourceTree = "<group>";
+		};
+		4B894A682C53103F00F85412 /* checker */ = {
+			isa = PBXGroup;
+			children = (
+				4B894A672C53103F00F85412 /* ConnectivityStatus.kt */,
+			);
+			path = checker;
+			sourceTree = "<group>";
+		};
+		4B894A692C53103F00F85412 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				4B894A682C53103F00F85412 /* checker */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		4B894A6A2C53103F00F85412 /* kmp */ = {
+			isa = PBXGroup;
+			children = (
+				4B894A692C53103F00F85412 /* network */,
+			);
+			path = kmp;
+			sourceTree = "<group>";
+		};
+		4B894A6B2C53103F00F85412 /* santimattius */ = {
+			isa = PBXGroup;
+			children = (
+				4B894A6A2C53103F00F85412 /* kmp */,
+			);
+			path = santimattius;
+			sourceTree = "<group>";
+		};
+		4B894A6C2C53103F00F85412 /* com */ = {
+			isa = PBXGroup;
+			children = (
+				4B894A6B2C53103F00F85412 /* santimattius */,
+			);
+			path = com;
+			sourceTree = "<group>";
+		};
+		4B894A6D2C53103F00F85412 /* kotlin */ = {
+			isa = PBXGroup;
+			children = (
+				4B894A6C2C53103F00F85412 /* com */,
+			);
+			path = kotlin;
+			sourceTree = "<group>";
+		};
+		4B894A6E2C53103F00F85412 /* commonMain */ = {
+			isa = PBXGroup;
+			children = (
+				4B894A6D2C53103F00F85412 /* kotlin */,
+			);
+			name = commonMain;
+			path = "../../network-checker/src/commonMain";
+			sourceTree = "<group>";
+		};
+		4B894A702C53103F00F85412 /* checker */ = {
+			isa = PBXGroup;
+			children = (
+				4B894A6F2C53103F00F85412 /* ConnectivityStatus.ios.kt */,
+			);
+			path = checker;
+			sourceTree = "<group>";
+		};
+		4B894A712C53103F00F85412 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				4B894A702C53103F00F85412 /* checker */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		4B894A722C53103F00F85412 /* kmp */ = {
+			isa = PBXGroup;
+			children = (
+				4B894A712C53103F00F85412 /* network */,
+			);
+			path = kmp;
+			sourceTree = "<group>";
+		};
+		4B894A732C53103F00F85412 /* santimattius */ = {
+			isa = PBXGroup;
+			children = (
+				4B894A722C53103F00F85412 /* kmp */,
+			);
+			path = santimattius;
+			sourceTree = "<group>";
+		};
+		4B894A742C53103F00F85412 /* com */ = {
+			isa = PBXGroup;
+			children = (
+				4B894A732C53103F00F85412 /* santimattius */,
+			);
+			path = com;
+			sourceTree = "<group>";
+		};
+		4B894A752C53103F00F85412 /* kotlin */ = {
+			isa = PBXGroup;
+			children = (
+				4B894A742C53103F00F85412 /* com */,
+			);
+			path = kotlin;
+			sourceTree = "<group>";
+		};
+		4B894A762C53103F00F85412 /* iosMain */ = {
+			isa = PBXGroup;
+			children = (
+				4B894A752C53103F00F85412 /* kotlin */,
+			);
+			name = iosMain;
+			path = "../../network-checker/src/iosMain";
+			sourceTree = "<group>";
+		};
+		4B894A7C2C53105D00F85412 /* drawable */ = {
+			isa = PBXGroup;
+			children = (
+				4B894A792C53105D00F85412 /* compose-multiplatform.xml */,
+				4B894A7A2C53105D00F85412 /* ic-connection-off.png */,
+				4B894A7B2C53105D00F85412 /* ic-connection-on.png */,
+			);
+			path = drawable;
+			sourceTree = "<group>";
+		};
+		4B894A7D2C53105D00F85412 /* composeResources */ = {
+			isa = PBXGroup;
+			children = (
+				4B894A7C2C53105D00F85412 /* drawable */,
+			);
+			path = composeResources;
+			sourceTree = "<group>";
+		};
+		4B894A812C53105D00F85412 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				4B894A7E2C53105D00F85412 /* AppBar.kt */,
+				4B894A7F2C53105D00F85412 /* Center.kt */,
+				4B894A802C53105D00F85412 /* NetworkImage.kt */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		4B894A852C53105D00F85412 /* themes */ = {
+			isa = PBXGroup;
+			children = (
+				4B894A822C53105D00F85412 /* Color.kt */,
+				4B894A832C53105D00F85412 /* Theme.kt */,
+				4B894A842C53105D00F85412 /* Type.kt */,
+			);
+			path = themes;
+			sourceTree = "<group>";
+		};
+		4B894A862C53105D00F85412 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				4B894A812C53105D00F85412 /* components */,
+				4B894A852C53105D00F85412 /* themes */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		4B894A872C53105D00F85412 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				4B894A862C53105D00F85412 /* ui */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		4B894A892C53105D00F85412 /* di */ = {
+			isa = PBXGroup;
+			children = (
+				4B894A882C53105D00F85412 /* Dependencies.kt */,
+			);
+			path = di;
+			sourceTree = "<group>";
+		};
+		4B894A8C2C53105D00F85412 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				4B894A8A2C53105D00F85412 /* HomeScreen.kt */,
+				4B894A8B2C53105D00F85412 /* HomeViewModel.kt */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		4B894A8E2C53105D00F85412 /* splash */ = {
+			isa = PBXGroup;
+			children = (
+				4B894A8D2C53105D00F85412 /* SplashScreen.kt */,
+			);
+			path = splash;
+			sourceTree = "<group>";
+		};
+		4B894A8F2C53105D00F85412 /* features */ = {
+			isa = PBXGroup;
+			children = (
+				4B894A8C2C53105D00F85412 /* home */,
+				4B894A8E2C53105D00F85412 /* splash */,
+			);
+			path = features;
+			sourceTree = "<group>";
+		};
+		4B894A922C53105D00F85412 /* navigation */ = {
+			isa = PBXGroup;
+			children = (
+				4B894A902C53105D00F85412 /* Navigation.kt */,
+				4B894A912C53105D00F85412 /* Routes.kt */,
+			);
+			path = navigation;
+			sourceTree = "<group>";
+		};
+		4B894A942C53105D00F85412 /* skeleton */ = {
+			isa = PBXGroup;
+			children = (
+				4B894A872C53105D00F85412 /* core */,
+				4B894A892C53105D00F85412 /* di */,
+				4B894A8F2C53105D00F85412 /* features */,
+				4B894A922C53105D00F85412 /* navigation */,
+				4B894A932C53105D00F85412 /* MainApplication.kt */,
+			);
+			path = skeleton;
+			sourceTree = "<group>";
+		};
+		4B894A952C53105D00F85412 /* kmp */ = {
+			isa = PBXGroup;
+			children = (
+				4B894A942C53105D00F85412 /* skeleton */,
+			);
+			path = kmp;
+			sourceTree = "<group>";
+		};
+		4B894A962C53105D00F85412 /* santimattius */ = {
+			isa = PBXGroup;
+			children = (
+				4B894A952C53105D00F85412 /* kmp */,
+			);
+			path = santimattius;
+			sourceTree = "<group>";
+		};
+		4B894A972C53105D00F85412 /* com */ = {
+			isa = PBXGroup;
+			children = (
+				4B894A962C53105D00F85412 /* santimattius */,
+			);
+			path = com;
+			sourceTree = "<group>";
+		};
+		4B894A992C53105D00F85412 /* kotlin */ = {
+			isa = PBXGroup;
+			children = (
+				4B894A972C53105D00F85412 /* com */,
+				4B894A982C53105D00F85412 /* App.kt */,
+			);
+			path = kotlin;
+			sourceTree = "<group>";
+		};
+		4B894A9A2C53105D00F85412 /* commonMain */ = {
+			isa = PBXGroup;
+			children = (
+				4B894A7D2C53105D00F85412 /* composeResources */,
+				4B894A992C53105D00F85412 /* kotlin */,
+			);
+			name = commonMain;
+			path = ../../composeApp/src/commonMain;
+			sourceTree = "<group>";
+		};
+		4B894A9C2C53105E00F85412 /* di */ = {
+			isa = PBXGroup;
+			children = (
+				4B894A9B2C53105E00F85412 /* Dependencies.ios.kt */,
+			);
+			path = di;
+			sourceTree = "<group>";
+		};
+		4B894A9D2C53105E00F85412 /* skeleton */ = {
+			isa = PBXGroup;
+			children = (
+				4B894A9C2C53105E00F85412 /* di */,
+			);
+			path = skeleton;
+			sourceTree = "<group>";
+		};
+		4B894A9E2C53105E00F85412 /* kmp */ = {
+			isa = PBXGroup;
+			children = (
+				4B894A9D2C53105E00F85412 /* skeleton */,
+			);
+			path = kmp;
+			sourceTree = "<group>";
+		};
+		4B894A9F2C53105E00F85412 /* santimattius */ = {
+			isa = PBXGroup;
+			children = (
+				4B894A9E2C53105E00F85412 /* kmp */,
+			);
+			path = santimattius;
+			sourceTree = "<group>";
+		};
+		4B894AA02C53105E00F85412 /* com */ = {
+			isa = PBXGroup;
+			children = (
+				4B894A9F2C53105E00F85412 /* santimattius */,
+			);
+			path = com;
+			sourceTree = "<group>";
+		};
+		4B894AA22C53105E00F85412 /* kotlin */ = {
+			isa = PBXGroup;
+			children = (
+				4B894AA02C53105E00F85412 /* com */,
+				4B894AA12C53105E00F85412 /* MainViewController.kt */,
+			);
+			path = kotlin;
+			sourceTree = "<group>";
+		};
+		4B894AA32C53105E00F85412 /* iosMain */ = {
+			isa = PBXGroup;
+			children = (
+				4B894AA22C53105E00F85412 /* kotlin */,
+			);
+			name = iosMain;
+			path = ../../composeApp/src/iosMain;
+			sourceTree = "<group>";
+		};
 		7555FF72242A565900829871 = {
 			isa = PBXGroup;
 			children = (
+				4B894A662C530FED00F85412 /* KotlinDebug */,
 				AB1DB47929225F7C00F7AF9C /* Configuration */,
 				7555FF7D242A565900829871 /* iosApp */,
 				7555FF7C242A565900829871 /* Products */,
@@ -135,8 +514,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B894AAB2C53105E00F85412 /* Theme.kt in Resources */,
+				4B894AA42C53105E00F85412 /* compose-multiplatform.xml in Resources */,
+				4B894AAF2C53105E00F85412 /* HomeViewModel.kt in Resources */,
+				4B894AA62C53105E00F85412 /* ic-connection-on.png in Resources */,
+				4B894AB52C53105E00F85412 /* Dependencies.ios.kt in Resources */,
+				4B894AB42C53105E00F85412 /* App.kt in Resources */,
+				4B894AA52C53105E00F85412 /* ic-connection-off.png in Resources */,
+				4B894A772C53103F00F85412 /* ConnectivityStatus.kt in Resources */,
+				4B894AA72C53105E00F85412 /* AppBar.kt in Resources */,
+				4B894AAA2C53105E00F85412 /* Color.kt in Resources */,
+				4B894AB32C53105E00F85412 /* MainApplication.kt in Resources */,
+				4B894AAE2C53105E00F85412 /* HomeScreen.kt in Resources */,
+				4B894AA92C53105E00F85412 /* NetworkImage.kt in Resources */,
 				058557D9273AAEEB004C7B11 /* Preview Assets.xcassets in Resources */,
+				4B894AAD2C53105E00F85412 /* Dependencies.kt in Resources */,
+				4B894A782C53103F00F85412 /* ConnectivityStatus.ios.kt in Resources */,
+				4B894AB02C53105E00F85412 /* SplashScreen.kt in Resources */,
+				4B894AB62C53105E00F85412 /* MainViewController.kt in Resources */,
+				4B894AB12C53105E00F85412 /* Navigation.kt in Resources */,
+				4B894AA82C53105E00F85412 /* Center.kt in Resources */,
 				058557BB273AAA24004C7B11 /* Assets.xcassets in Resources */,
+				4B894AB22C53105E00F85412 /* Routes.kt in Resources */,
+				4B894AAC2C53105E00F85412 /* Type.kt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
